@@ -47,8 +47,7 @@ I approached this classification problem from two independent angles, using:
 - **length**: length of each track observation, given in sample number. All observations are the same value of 66149 samples; at a sample rate of 22050 Hz, this amounts to approx 3 second audio samples.
 - **label**: the genre of the track observation ('blues', 'hiphop', 'rock', 'classical', etc). 10 unique labels for the 10 different genres.<br>
 etc...
-- Information for other features given within the [data dictionary](https://github.com/johakaishi/music_genre_classification_gtzan/blob/master/data_dictionary.ipynb).
-
+- Information for other features given within the [data dictionary](https://github.com/johakaishi/music_genre_classification_gtzan/blob/master/data_dictionary.md).
 
 #### 2. Mel Spectrograms
 Mel spectrograms are a representation of the power spectrum of an audio signal, according to frequency.<br>
@@ -66,7 +65,7 @@ Please note that for the spectrograms I used longer audio samples of 30 seconds 
 ---
 [Link to notebook](https://github.com/johakaishi/music_genre_classification_gtzan/blob/master/gtzan_1_eda.ipynb)
 
-[Data dictionary](https://github.com/johakaishi/music_genre_classification_gtzan/blob/master/data_dictionary.ipynb)
+[Data dictionary](https://github.com/johakaishi/music_genre_classification_gtzan/blob/master/data_dictionary.md)
 
 Upon closer observation of the dataset, some of the rows were found to be duplicated. All of the features had identical values, but with different filenames. In the case of some, these were also split across different genres ('rock' and 'metal' below).
 
