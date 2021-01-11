@@ -106,7 +106,8 @@ KMeans Clustering:
 <img src="/readme_assets/clustering_kmeans.png">
 
 - It was expected to find a distinct "elbow" at 10 clusters (for the 10 different classes).
-- However, it seems more prominent at 5-6(?) clusters.
+- However, it seems more prominent at approximately 5-6 clusters.
+- This may suggest boundaries which are not so clear for the 10 different genres, and some overlaps within the feature space.
 
 [(back to top)](#back_to_top)
 
